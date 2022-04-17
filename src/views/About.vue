@@ -21,6 +21,8 @@
         <li>GET '/api/favorites/{id}/fav' (Get All Created Relationship between User and Film filtered by Fav Value, Need LoggedIn)</li>
         <li>PUT '/api/favorites/'  (Update Fav and Ratings Value by Relational Pivot Table ID)</li>
       </ul>
+      <p>Frontend Hosted on Netlify <a href="https://ben-movie-app.netlify.app/" target="_blank">https://ben-movie-app.netlify.app/</a></p>
+      <p>Backend Hosted on Heroku <a href="https://ben-movie-apps.herokuapp.com/" target="_blank">https://ben-movie-apps.herokuapp.com/</a></p>
     </div>
   </div>  
 </template>
