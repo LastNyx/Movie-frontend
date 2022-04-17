@@ -133,7 +133,9 @@ export default {
       }
     },
     async handleClickFavRating(value){
-      this.favrating.favorite = 1
+      if(value == 'fav'){
+        this.favrating.favorite = 1
+      }
       await this.axios.post('/api/favorites',{
         favrating: this.favrating,
       },{headers: { "Authorization": "Bearer " + this.token,}})
